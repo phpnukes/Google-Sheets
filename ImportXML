@@ -1,0 +1,1 @@
+=LET(list, IMPORTXML("https://www.officialcharts.com/charts/dance-singles-chart/19940703/104", "//*[@id='__nuxt']/div[3]/div/main/div[2]/section/div/div/div/div/div/div[2]/p/a/span"), WRAPROWS(BYROW(list, LAMBDA(r, JOIN("", r))), 2))
